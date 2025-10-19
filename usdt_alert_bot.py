@@ -8,7 +8,7 @@ Strategies supported (1 script per process):
   - EMA50+MACDexit       (entry: close>EMA50, exit: MACD cross under)
 
 Run example:
-  STRATEGY="EMA50+EMAexit"  TELEGRAM_TOKEN="7038494046:AAF40EdChgpYkeNW8RZS0JeWh00z-_cneZU" CHAT_ID="-4677658866" python usdt_alert_bot.py
+  STRATEGY="EMA50+EMAexit"  TELEGRAM_TOKEN="xxxx" CHAT_ID="-1234" python usdt_alert_bot.py
 """
 
 import os, time, json, math, requests
